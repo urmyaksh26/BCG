@@ -1,0 +1,28 @@
+{ 
+    "spark_conf" : { 
+        "master": "local[*]",
+        "appname": "bcg"
+    },
+
+    "input_file" : {
+    "Charges" : "{input_path}",
+    "Damages" : "{input_path}",
+    "Endorse" : "{input_path}",
+    "Restrict" : "{input_path}",
+    "Primary_Person" : "{input_path}",
+    "Units" : "{input_path}",
+    },
+
+    "output_file" : {
+    "output1" : {"path" : "Output Path", "filename" : "output1.csv"},
+    "output1" : {"path" : "Output Path", "filename" : "output1.csv"},
+    "output2" : {"path" : "Output Path", "filename" : "output2.csv"},
+    "output3" : {"path" : "Output Path", "filename" : "output3.csv"},
+    "output4" : {"path" : "Output Path", "filename" : "output4.csv"},
+    "output5" : {"path" : "Output Path", "filename" : "output5.csv"},
+    "output6" : {"path" : "Output Path", "filename" : "output6.csv"},
+    "output7" : {"path" : "Output Path", "filename" : "output7.csv"},
+    "output8" : {"path" : "Output Path", "filename" : "output8.csv"}
+    
+    }
+}
